@@ -11,12 +11,11 @@ class NamaOrang{
 
 int main(){
 	
-	NamaOrang user1;
+	NamaOrang user1, user2;
 	user1.nama = "lawateko";
-	NamaOrang user2;
 	user2.nama = "jnwttmna";
 	
-	cout << "nama user-1 adalah " << user1.nama << ", dan temannya bernama " << user2.nama << endl;
+	cout << "Hello, My name is " << user1.nama << ", and my friends name is " << user2.nama << endl;
 	
     return 0;
 }
